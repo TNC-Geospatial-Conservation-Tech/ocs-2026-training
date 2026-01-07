@@ -1,0 +1,12 @@
+name: HRRR-AWS-cookbook
+channels:
+  - conda-forge
+dependencies:
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-myst
+  - dask
+  - metpy
+  - zarr
+  - s3fs
+  - mystmd
