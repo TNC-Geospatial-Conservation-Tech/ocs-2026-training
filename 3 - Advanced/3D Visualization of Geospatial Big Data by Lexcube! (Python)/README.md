@@ -18,11 +18,13 @@ This cookbook was derived from an original Medium blog post from Feb 12, 2024 av
 
 ## Table of Contents
 [🌟 Introduction](#Introduction)
+
 [🌐 Lexcube](#Lexcube)
+
 [📰 Data](#Data)
 
 <h2 id="Introduction">🌟 Introduction</h2>
-Data visualization in three dimensions (latitude, longitude, and time) is fascinating, isn’t it? As a geospatial data scientist, I have always wanted to know the easiest way to plot a cubic dataset created by merging hundreds of raster layers. While reading my feeds on LinkedIn, I found a great Python library called Lexcube, which has recently become available for Jupyter Notebook. For additional information about Lexcube, please refer to this [article](https://www.computer.org/csdl/magazine/cg/2024/01/10274107/1R6MgauvfWg[) and/or check out [Lexcube on GitHub](https://github.com/msoechting/lexcube).
+Data visualization in three dimensions (latitude, longitude, and time) is fascinating, isn’t it? As a geospatial data scientist, I have always wanted to know the easiest way to plot a cubic dataset created by merging hundreds of raster layers. While reading my feeds on LinkedIn, I found a great Python library called Lexcube, which has recently become available for Jupyter Notebook. For additional information about Lexcube, please refer to this [article](https://www.computer.org/csdl/magazine/cg/2024/01/10274107/1R6MgauvfWg) and/or check out [Lexcube on GitHub](https://github.com/msoechting/lexcube).
 
 First of all, I’d like to thank Miguel Mahecha for sharing that post on LinkedIn and also Maximilian Söchting and his team for developing a valuable tool for the geospatial data community. Secondly, here is a hands-on exercise to help you use this package to visualize your cubic data in a 3D plot. All the steps have been coded in Python in Google Colab and by the end of this story, you will learn how to convert your raster layers to the Xarray format and then use it in Lexcube to create a 3D plot of your data.
 
