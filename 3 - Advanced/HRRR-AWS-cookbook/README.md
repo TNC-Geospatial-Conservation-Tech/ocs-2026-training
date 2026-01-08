@@ -2,11 +2,12 @@
 
 <img src="thumbnail.svg" alt="thumbnail" width="400"/>
 
-[![nightly-build](https://github.com/ProjectPythia/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/HRRR-AWS-cookbook.git/main)
 [![DOI](https://zenodo.org/badge/507993773.svg)](https://zenodo.org/badge/latestdoi/507993773)
 
 In this Project Pythia Cookbook, you will access and create a map from archived data from NCEP's High-Resolution Rapid Refresh (HRRR) model, which is served in an S3 bucket on AWS.
+
+## Prerequisites
+We strongly recommend completing the Intermediate training module for our data science training before taking on this Advanced module. It is also recommended that you familiarize yourself with the [Xarray](https://docs.xarray.dev/en/stable/) python library. You can use this [Introduction to Xarray](https://foundations.projectpythia.org/core/xarray/xarray-intro/) online training by Project Pythia.  
 
 ## Motivation
 This cookbook provides the essential materials to learning how to work with gridded NCEP model output that is served on AWS' S3 buckets, in a data format called Zarr.
@@ -21,9 +22,16 @@ Throughout this cookbook, we build on the core foundational Python material cove
 
 ## Authors
 
-[Kevin Tyle](https://github.com/ktyle)
+This notebook was slightly edited by [Francesco Tonini](https://github.com/f-tonini) and [Glenn Moncrieff](https://github.com/GMoncrieff) from its original form. We would like to acknowledge the original author, [Kevin Tyle](https://github.com/ktyle). If you have specific questions about the inner workings of the packages used in this notebook, feel free to reach out to us directly or the original author.
 
-### Contributors
+### TNC Contributors for OCS 2026 Data Science Training
+
+<a href="https://github.com/f-tonini">
+  <img src="https://avatars.githubusercontent.com/u/1470540?v=4" width="80" />
+  <img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="80" />
+</a>
+
+### Original Contributors at Project Pythia
 
 <a href="https://github.com/ProjectPythia/HRRR-AWS-cookbook/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ProjectPythia/HRRR-AWS-cookbook" />
@@ -48,48 +56,4 @@ Here, we **apply** the lessons learned in the foundational material to various a
 1. **Currently under development** Plot a sequence of forecast maps for the most recent run of the HRRR
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
-
-### Running on Binder
-
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://binder.projectpythia.org/), which enables the execution of a
-Jupyter Book in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Foundations book chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-`Shift` `Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter).
-
-### Running on Your Own Machine
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
-
-1. Clone the ["HRRR-AWS-cookbook"](https://github.com/ProjectPythia/HRRR-AWS-cookbook) repository
-    ```bash
-    git clone https://github.com/ProjectPythia/HRRR-AWS-cookbook.git
-    ```
-
-2. Move into the `HRRR-AWS-cookbook` directory
-    ```bash
-    cd HRRR-AWS-cookbook
-    ```
-
-3. Create and activate your conda environment from the `environment.yml` file
-    ```bash
-    conda env create -f environment.yml
-    conda activate HRRR-AWS-cookbook
-    ```
-
-4.  Move into the `notebooks` directory and start up Jupyterlab
-    ```bash
-    cd notebooks/
-    jupyter lab
-    ```
-
-At this point, you can interact with the notebooks! Make sure to check out the ["Getting Started with Jupyter"](https://foundations.projectpythia.org/foundations/getting-started-jupyter) content from the [Pythia Foundations](https://foundations.projectpythia.org) material if you are new to Jupyter or need a refresher.
+The [Jupyter Notebook document](notebooks/example-workflows/plot-2mt.ipynb) for this section can be found inside the *notebooks > example-workflows* subfolder. You will be running this Notebook directly inside your own Jupyter Notebook in [AWS SageMaker AI Studio](https://aws.amazon.com/sagemaker/ai/?trk=ceaf07a2-36ab-4fba-b62f-bcf6c48ca9f2&sc_channel=ps&trk=ceaf07a2-36ab-4fba-b62f-bcf6c48ca9f2&sc_channel=ps&ef_id=Cj0KCQiApfjKBhC0ARIsAMiR_ItWNogcywkt0EhUJePZx8eK2SY4CptBGWsPkGIADsk8OoXOyZ58dKoaAkq0EALw_wcB:G:s&s_kwcid=AL!4422!3!724218586019!e!!g!!aws%20sagemaker%20ai&gad_campaignid=19852662230&gclid=Cj0KCQiApfjKBhC0ARIsAMiR_ItWNogcywkt0EhUJePZx8eK2SY4CptBGWsPkGIADsk8OoXOyZ58dKoaAkq0EALw_wcB). Make sure to check out the ["Getting Started with Jupyter"](https://foundations.projectpythia.org/foundations/getting-started-jupyter) content from the [Pythia Foundations](https://foundations.projectpythia.org) material if you are new to Jupyter or need a refresher.
