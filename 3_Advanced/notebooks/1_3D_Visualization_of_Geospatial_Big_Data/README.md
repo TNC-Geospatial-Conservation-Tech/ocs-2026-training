@@ -1,4 +1,4 @@
-## 3D Visualization of Geospatial Big Data by Lexcube! (Python)
+## 3D Visualization of Geospatial Big Data with Python Lexcube
 Learn how to work with Lexcube, a Python package for data visualization in the space-time domain!
 
 ## Authors

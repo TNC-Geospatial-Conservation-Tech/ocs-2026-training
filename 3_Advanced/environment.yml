@@ -34,3 +34,11 @@ dependencies:
   - fsspec=2024.10.0
   - seaborn=0.13.2
   - requests=2.32.3
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-myst
+  - dask
+  - metpy
+  - zarr
+  - s3fs
+  - mystmd
