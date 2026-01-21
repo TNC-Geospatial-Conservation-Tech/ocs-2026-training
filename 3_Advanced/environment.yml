@@ -42,3 +42,7 @@ dependencies:
   - zarr
   - s3fs
   - mystmd
+  - boto3
+  - pip
+  - pip:
+    - lexcube
