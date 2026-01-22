@@ -1,6 +1,43 @@
-## 3D Visualization of Geospatial Big Data with Python Lexcube
+# 3D Visualization of Geospatial Big Data with Python Lexcube
 
 Learn how to work with Lexcube, a Python package for data visualization in the space-time domain!
+
+![Lexcube Logo](img/lexcube-logo.png)
+
+![Lexcube Demo GIF](https://raw.githubusercontent.com/msoechting/lexcube/main/readme-media/lexcube-demo.gif)
+
+--- 
+
+**GitHub**: [https://github.com/msoechting/lexcube](https://github.com/msoechting/lexcube)
+
+**Paper**: [https://doi.org/10.1080/20964471.2025.2471646](https://doi.org/10.1080/20964471.2025.2471646) 
+
+**PyPI**: [https://pypi.org/project/lexcube/](https://pypi.org/project/lexcube/)
+
+---
+
+**NEW with version 0.4.16**: [Craft your own paper data cube!](#print-your-own-paper-data-cube)
+
+![Print template graphic](https://raw.githubusercontent.com/msoechting/lexcube/main/readme-media/print-template.png)
+
+---
+
+Lexcube is a library for interactively visualizing three-dimensional floating-point data as 3D cubes in Jupyter notebooks. 
+
+Supported data formats:
+
+- numpy.ndarray (with exactly 3 dimensions)
+- xarray.DataArray (with exactly 3 dimensions, rectangularly gridded)
+
+Possible data sources:
+
+- Any gridded Zarr or NetCDF data set (local or remote, e.g., accessed with S3)
+  
+- Copernicus Data Storage, e.g., [ERA5 data](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-complete?tab=overview)
+
+- Google Earth Engine ([using xee, see example notebook](https://github.com/msoechting/lexcube/blob/main/examples/4_google_earth_engine.ipynb))
+
+Example notebooks can be found in the [examples](https://github.com/msoechting/lexcube/tree/main/examples) folder. For a live demo, see also [lexcube.org](https://www.lexcube.org).
 
 ## About
 
@@ -9,8 +46,8 @@ This cookbook was adjusted and edited from an original Medium blog post from Feb
 ### TNC Contributors for 2026 Spatial Data Science virtual training - Advanced Module
 
 <a href="https://github.com/f-tonini">
-  <img src="https://avatars.githubusercontent.com/u/1470540?v=4" width="80" />
-  <img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="80" />
+  <img src="https://avatars.githubusercontent.com/u/1470540?v=4" width="50" />
+  <img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="50" />
 </a>
 
 ### Original Contributor on Medium
