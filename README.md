@@ -17,7 +17,7 @@ Feb 3: 11am - 12pm EST
 
 Feb 4: 8pm – 9pm EST
  
-**Intermediate Spatial Data Science**: Explore new platforms and techniques for ETL (Extracting, Transforming and Loading), take advantage of open data portals on the cloud, and test new features to advance your work. Instructors: Matt Kenny (Geospatial Data Engineer, Conservation & Geospatial Systems, IT) and an external speaker from Earthmover.
+**Intermediate Spatial Data Science**: Explore new platforms and techniques for ETL (Extracting, Transforming and Loading), take advantage of open data portals on the cloud, and test new features to advance your work. Instructors: Matt Kenny (Geospatial Data Engineer, Conservation & Geospatial Systems, IT) and Ryan Abernathey (CEO, Earthmover).
 
 Feb 10: 11am – 12:30pm EST
 
