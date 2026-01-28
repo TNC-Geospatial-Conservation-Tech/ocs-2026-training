@@ -37,9 +37,6 @@ dependencies:
   - jupyter-book
   - jupyterlab
   - jupyterlab-myst
-  - dask
-  - zarr
-  - s3fs
   - mystmd
-  - boto3
   - metpy
+  - boto3

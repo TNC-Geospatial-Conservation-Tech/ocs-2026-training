@@ -40,8 +40,5 @@ dependencies:
   - dask
   - metpy
   - zarr
-  - s3fs
   - mystmd
   - boto3
-  - pip:
-    - lexcube
