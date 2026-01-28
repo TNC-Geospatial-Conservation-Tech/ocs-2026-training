@@ -14,7 +14,7 @@ The first step for this training module is to launch AWS SageMaker Studio Lab (*
 
 ## Post training Instructions
 
-To run these notebooks in an environment other then Sagemaker Studio Lab (such as a local workstation or TNC's Sagemaker deployment) you can execute the following steps to create a `conda` environment:
+To run these notebooks in an environment other then Sagemaker Studio Lab (such as a local workstation or TNC's Sagemaker deployment) you can execute the following steps from a terminal to create a `conda` environment:
 
 1) Create the python execution environment `ocs-intermediate` (first time only)
 
@@ -26,11 +26,15 @@ To run these notebooks in an environment other then Sagemaker Studio Lab (such a
 
 3) Register the environment (Sagemaker Only)
 
+`$ conda init`
+
+If prompted to close and re-open your terminal, please do so.
+
 ```bash
-(base) sagemaker-user@default:~/ocs-2026-training-mk-scratch$ conda activate ocs-intermediate
-(ocs-intermediate) sagemaker-user@default:~/ocs-2026-training-mk-scratch$ python -m ipykernel install --user --name=ocs-intermediate --display-name "Python (ocs-intermediate)"
-Installed kernelspec ocs-intermediate in /home/sagemaker-user/.local/share/jupyter/kernels/ocs-intermediate
-(ocs-intermediate) sagemaker-user@default:~/ocs-2026-training-mk-scratch$ 
+$ conda activate ocs-intermediate
+$ python -m ipykernel install --user --name=ocs-intermediate --display-name "Python (ocs-intermediate)"
 ```
+
+You should see a message like `Installed kernelspec ocs-intermediate in /home/sagemaker-user/.local/share/jupyter/kernels/ocs-intermediate`
 
 Stop and restart Sagemaker space to see kernel in jupyterlab menu.
