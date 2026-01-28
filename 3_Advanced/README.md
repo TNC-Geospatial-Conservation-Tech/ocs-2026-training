@@ -4,6 +4,6 @@ The first step for this Advanced training module is to launch AWS SageMaker Stud
 
 ## Click the button below to launch AWS Sagemaker Studio Lab:  
 
-[![](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/TNC-Geospatial-Conservation-Tech/ocs-2026-training/blob/main/3_Advanced/notebooks/1_HRRR_AWS_cookbook\plot-2mt.ipynb)
+[![](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/TNC-Geospatial-Conservation-Tech/ocs-2026-training/blob/main/3_Advanced/notebooks/1_Intro_Xarray\Intro_Xarray.ipynb)
 
 **NOTE: Be sure to select ‘clone entire repository’ when prompted. SMSL will also ask if you want to install required packages from environment.yml. Make sure to say YES as this environment YAML file contains all of the required Python packages to complete the training sections in the Jupyter Notebooks.**

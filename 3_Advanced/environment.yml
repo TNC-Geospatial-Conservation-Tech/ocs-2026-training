@@ -38,10 +38,8 @@ dependencies:
   - jupyterlab
   - jupyterlab-myst
   - dask
-  - metpy
   - zarr
   - s3fs
   - mystmd
   - boto3
-  - pip:
-    - lexcube
+  - metpy

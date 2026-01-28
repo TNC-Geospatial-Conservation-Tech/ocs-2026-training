@@ -1,4 +1,4 @@
-# HRRR on AWS Cookbook
+# HRRR Climate Data (AWS)
 
 ![thumbnail](img/thumbnail.svg)
 
@@ -6,7 +6,7 @@ In this module, you will access and create a map from archived data from NCEP's 
 
 ## Prerequisites
 
-We strongly recommend completing the Intermediate training module for our data science training before taking on this Advanced module. It is also recommended that you familiarize yourself with the [Xarray](https://docs.xarray.dev/en/stable/) python library. You can use this [Introduction to Xarray](https://foundations.projectpythia.org/core/xarray/xarray-intro/) online training by Project Pythia.  
+We strongly recommend completing the [Intermediate training module](https://github.com/TNC-Geospatial-Conservation-Tech/ocs-2026-training/tree/main/2_Intermediate) for our data science training before taking on this Advanced module.
 
 ## Motivation
 
