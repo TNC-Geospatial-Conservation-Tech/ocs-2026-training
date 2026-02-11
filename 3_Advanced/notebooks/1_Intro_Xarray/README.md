@@ -1,8 +1,8 @@
-# Introduction to Xarray and Gridded Datasets
+# Introduction to multidimensional datasets with `xarray`, `rioxarray` and using cloud data repositories
 
 ![xarray](img/xarray.png)
 
-In this module, you will start working with the **Xarray**, an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
+In this module, you will start working with the `Xarray`, an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
 
 ## Prerequisites
 
@@ -16,15 +16,3 @@ This cookbook was derived and edited from the extensive knowledge base available
 
 <a href="https://github.com/f-tonini"><img src="https://avatars.githubusercontent.com/u/1470540?v=4" width="50" /></a>
 <a href="https://github.com/contributor2-username"><img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="50" /></a>
-
-## Notebook Lesson Structure
-
-1. Load the necessary libraries
-2. Gridded data with Xarray
-3. Loading data from the cloud
-4. Make xarray geospatial with rioxarray
-5. Data search and discovery
-
-## Running the Notebook
-
-You will be running this Notebook directly inside your own Jupyter Notebook. Make sure to check out the ["Getting Started with Jupyter"](https://foundations.projectpythia.org/foundations/getting-started-jupyter) content from the [Pythia Foundations](https://foundations.projectpythia.org) material if you are new to Jupyter or need a refresher.

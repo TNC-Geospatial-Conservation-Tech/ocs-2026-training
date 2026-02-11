@@ -1,5 +1,9 @@
 # Spatial Data Science virtual training - Advanced Module
 
+## Prerequisites
+
+We strongly recommend completing the [Intermediate training module](https://github.com/TNC-Geospatial-Conservation-Tech/ocs-2026-training/tree/main/2_Intermediate) for our data science training before taking on this Advanced module.
+
 ## Live Training Instructions
 
 The advanced training notebooks are small enough in size to be run via https://mybinder.org
