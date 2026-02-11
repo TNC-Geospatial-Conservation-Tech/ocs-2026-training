@@ -1,4 +1,4 @@
-# HRRR Climate Data (AWS)
+# Visualizing NCEP's High-Resolution Rapid Refresh (HRRR) model 2-meter temperatures (AWS)
 
 ![thumbnail](img/thumbnail.svg)
 
