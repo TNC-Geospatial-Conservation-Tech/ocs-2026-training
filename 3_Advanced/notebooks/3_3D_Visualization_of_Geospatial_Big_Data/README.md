@@ -35,11 +35,11 @@ Supported data formats:
 
 Possible data sources:
 
-- Any gridded `Zarr` or NetCDF data set (local or remote, e.g., accessed with S3)  
+- Any gridded `Zarr` or NetCDF data set (local or remote, e.g., accessed with S3) such as Oregon's PRISM dataset
 - Copernicus Data Storage, e.g., [ERA5 data](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-complete?tab=overview)
-- Google Earth Engine ([using xee, see example notebook](https://github.com/msoechting/lexcube/blob/main/examples/4_google_earth_engine.ipynb))
+- Google Earth Engine
 
-Example notebooks can be found in this module that show you how to ingest and visualize data from various possible sources listed above. Take your time to look through each notebook and translate the same workflows for your own project.
+The example notebooks found in this module will show you how to ingest and visualize data from various possible sources listed above. Take your time to look through each notebook and translate the same workflows for your own project.
 
 ## About
 
