@@ -15,4 +15,4 @@ This cookbook was derived and edited from the extensive knowledge base available
 ### TNC Contributors for 2026 Spatial Data Science virtual training - Advanced Module
 
 <a href="https://github.com/f-tonini"><img src="https://avatars.githubusercontent.com/u/1470540?v=4" width="50" /></a>
-<a href="https://github.com/contributor2-username"><img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="50" /></a>
+<a href="https://github.com/GMoncrieff"><img src="https://avatars.githubusercontent.com/u/8463334?v=4" width="50" /></a>
