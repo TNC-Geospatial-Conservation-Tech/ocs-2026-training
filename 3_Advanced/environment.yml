@@ -1,4 +1,4 @@
-name: tnc-ocsg
+name: ocs-advanced
 channels:
   - conda-forge
   - defaults
