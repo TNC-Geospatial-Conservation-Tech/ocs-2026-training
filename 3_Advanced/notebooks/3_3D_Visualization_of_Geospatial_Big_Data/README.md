@@ -39,8 +39,6 @@ Possible data sources:
 - Copernicus Data Storage, e.g., [ERA5 data](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-complete?tab=overview)
 - Google Earth Engine
 
-The example notebooks found in this module will show you how to ingest and visualize data from various possible sources listed above. Take your time to look through each notebook and translate the same workflows for your own project.
-
 ## About
 
 This cookbook was adjusted and edited from an original Medium blog post from Feb 12, 2024 available on [Medium - Towards Data Science](https://towardsdatascience.com/3d-visualization-of-geospatial-big-data-by-lexcube-python-a57512cabd69/#:~:text=Data%20visualization%20in%20three%20dimensions%20(latitude,%20longitude,,created%20by%20merging%20hundreds%20of%20raster%20layers)). We would like to acknowledge the original author, [Mahyar Aboutalebi, Ph.D.](https://towardsdatascience.com/author/mahyar-aboutalebi/) If you have specific questions about the inner workings of the packages used in this notebook, feel free to reach out to us directly or the original author.
