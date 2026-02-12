@@ -1,4 +1,4 @@
-# Visualizing NCEP's High-Resolution Rapid Refresh (HRRR) model 2-meter temperatures (AWS)
+# Visualize NCEP's HRRR Temperature Data using `zarr`
 
 ![thumbnail](img/thumbnail.svg)
 
