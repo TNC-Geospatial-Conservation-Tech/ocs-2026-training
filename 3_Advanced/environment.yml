@@ -40,5 +40,6 @@ dependencies:
   - mystmd
   - metpy
   - boto3
+  - icechunk
   - pip:
     - lexcube
