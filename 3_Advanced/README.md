@@ -8,7 +8,7 @@ We strongly recommend completing the [Intermediate training module](https://gith
 
 The advanced training notebooks are small enough in size to be run via https://mybinder.org
 
-**Please click the following badge to launch a compute environment with these notebooks:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TNC-Geospatial-Conservation-Tech/ocs-training-2026-intermediate-mybinder/HEAD?urlpath=%2Fdoc%2Ftree%2F01_TNC_S3_Bucket.ipynb)
+**Please click the following badge to launch a compute environment with these notebooks:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TNC-Geospatial-Conservation-Tech/ocs-training-2026-advanced-mybinder/main)
 
 ⚠️ **NOTE**: Binder instances are **ephemeral** and **no changes will be saved**. Download workbooks or follow instructions below to create a compute environment for long term use.
 
