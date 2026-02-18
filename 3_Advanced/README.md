@@ -12,7 +12,7 @@ The advanced training notebooks are small enough in size to be run via https://m
 
 ⚠️ **NOTE**: Binder instances are **ephemeral** and **no changes will be saved**. Download workbooks or follow instructions below to create a compute environment for long term use.
 
-Please note that the this maps to a separate repo specific for usage with Binder. The source is fundamentally the same but the environment dependencies have been chosen for compatibility with Binder.
+Please note that this maps to a separate repo specific for usage with Binder. The source is fundamentally the same but the environment dependencies have been chosen for compatibility with Binder.
 
 ## Post Training Instructions
 
